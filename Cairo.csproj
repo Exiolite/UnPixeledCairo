@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>cairo-sharp</AssemblyName>
+        <TargetFramework>$(FrameworkVersion)</TargetFramework>
+        <OutputPath>..\bin\$(Configuration)</OutputPath>
+        <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+        <Configurations>Debug;Release;PerfTest</Configurations>
+        <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="SkiaSharp" Version="3.116.1" />
+    </ItemGroup>
+
+</Project>
